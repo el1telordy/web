@@ -1,0 +1,73 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+    background-color: white;
+}
+
+#cards {
+	padding: 10px;
+	margin: 10px;
+}
+
+.row {
+	text-align: center;
+}
+
+.header{
+	color: black;
+	margin: 0px;
+	padding: 0px; 
+	font-size: 60px;
+}
+
+#carsstyle, .headsm, .music{
+	padding: 10px;
+	margin: 10px;
+}
+
+.terminal {
+	font-family: Consolas, monospace;
+	background-color: black;
+	width: 100%;
+}
+
+ol.breadcrumb.terminal li {
+	color: #4AF626;
+	text-align: center;
+	position: center;
+}
+
+#footicon {
+	margin: 10px;
+}
+
+.card:hover{
+	background-color: #007bff;
+	color: white;
+	box-shadow: 0px 10px 20px 10px rgba(0,0,0,0, 0.5);
+	transition: background-color 0.5s, color 0.5s, box-shadow 0.5s;
+}
+
+.carhov:hover{
+	box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.3);
+	transition: box-shadow 0.2s;
+}
+
+.carhov{
+	transition: box-shadow 0.2s;
+}
+
+.card{
+	transition: background-color 0.5s, color 0.5s;
+}
+
+.thumb, .cardpad {
+	padding: 5px;
+}
+
+.socbtn {
+    padding: 10px;
+    margin: 0 0 20px;
+}

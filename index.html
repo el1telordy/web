@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <link rel="shortcut icon" type="image/png" href="pics/favicon.png">
+    <title>h3ll0</title>
+  </head>
+  <body> 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand mr-0 mr-md-2" id="logotxt" href="">
+        <img src="pics/logo.png" width="30" height="30">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">StartPage<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#cars">Pics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#music">Music</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#me">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#contacts">Contacts</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="jumbotron">
+      <h1 class="header display-4">Hello, my friend</h1>
+      <p class="lead">What is it? <br>
+      It's my test page for playing with Bootstrap, SASS, JS and other web-technologies.</p>
+      <hr class="my-4">
+      <a class="btn btn-primary btn-lg smooth-scroll" href="#cards" role="button">Get started!</a>
+    </div> 
+   	<div class="row" id ="cards">
+      <div class="col-sm-12 cardpad col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Created with Bootstrap</h5>
+            <p class="card-text">This page was created with Bootstrap 4. Now it's use just a little piece of all functions of Bootstrap. But this is really cool and powerful framework.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 cardpad col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Studying</h5>
+            <p class="card-text">I'm studying for C++, but now there's carantine and I have much more time, so I decided to study some useful things like web-development. It is really interesting.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 cardpad col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Future plans</h5>
+            <p class="card-text">I don't want just stop on Bootstrap. After studying this basic things I have to start studying JS, some frameworks and after that I'd prefer to know smth new in backend.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+   	</div>
+    <hr class="my-4">
+    <div class="container text-center" id="me">
+      <h4 class="text-center headsm">wh0ami?</h4>
+      <p class="lead">I'm student of ITMO University, now studying for Programming and Internet-Tech. <br>
+          Really crazy about fast and legendary cars, taking and editing photos, good music and tech</p>
+          <p class="lead">Also, I'm work in <a href="https://t.me/itislive" target="_blank">ITIS</a> as an editor</p>
+    </div>
+    <div class="container-fluid" id="cars">
+      <h4 class="text-center headsm">Some good pics that i took in July 2019</h4>
+      <div class="row align-items-center" id="carsstyle">
+        <div class="col-sm-12 col-lg-3 col-md-6 thumb">
+          <img class="img-responsive carhov rounded" src="pics/ae.jpeg" width="100%">
+        </div>
+        <div class="col-sm-12 col-lg-3 col-md-6 thumb">
+          <img class="img-responsive carhov rounded" src="pics/rx8.jpeg" width="100%">
+        </div>
+        <div class="col-sm-12 col-lg-3 col-md-6 thumb">
+          <img class="img-responsive carhov rounded" src="pics/m3.jpeg" width="100%">
+        </div>
+        <div class="col-sm-12 col-lg-3 col-md-6 thumb">
+          <img class="img-responsive carhov rounded" src="pics/r32.jpeg" width="100%">
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" id = "music">
+      <h4 class="text-center headsm">Music that i love to listen</h4>
+      <div class="row music">
+        <div class="col-sm-12 col-lg-3 col-md-6">
+          <iframe src="https://open.spotify.com/embed/album/2hshVOA4ULsMGHPDiUaDbJ" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+        <div class="col-sm-12 col-lg-3 col-md-6">
+          <iframe src="https://open.spotify.com/embed/album/34GQP3dILpyCN018y2k61L" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+        <div class="col-sm-12 col-lg-3 col-md-6">
+          <iframe src="https://open.spotify.com/embed/album/1ugl4nx9jaE3WF9eb0G1Mr" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+        <div class="col-sm-12 col-lg-3 col-md-6">
+          <iframe src="https://open.spotify.com/embed/album/0cbpcdI4UySacPh5RCpDfo" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+      </div>
+      <div class="row music">
+        <div class="col-sm-12 col-lg-3 col-md-6">
+            <iframe src="https://open.spotify.com/embed/album/4vXt6IpMcSnqonljffWlMI" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+        <div class="col-sm-12 col-lg-3 col-md-6">
+            <iframe src="https://open.spotify.com/embed/album/0rmhjUgoVa17LZuS8xWQ3v" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+        <div class="col-sm-12 col-lg-3 col-md-6">
+          <iframe src="https://open.spotify.com/embed/track/3cfOd4CMv2snFaKAnMdnvK" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+        <div class="col-sm-12 col-lg-3 col-md-6">
+            <iframe src="https://open.spotify.com/embed/track/6NOId30dbtZ0rU3em9KqT9" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="container" id="contacts">
+      <h4 class="text-center headsm">How to contact me?</h4>
+      <div class="btn-group socbtn d-flex justify-content-center" role="group" aria-label="Basic example">
+        <a class="btn btn-primary btn-lg" href="https://github.com/el1telordy" target="_blank" role="button">Github</a>
+        <a class="btn btn-primary btn-lg" href="https://t.me/elitelordy" target="_blank" role="button">Telegram</a>
+        <a class="btn btn-primary btn-lg" href="https://twitter.com/TurboBich1" target="_blank" role="button">Twitter</a>
+      </div>
+    </div>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb terminal">
+        <li class="breadcrumb-item active" aria-current="page">C:\StartPage\</li>
+      </ol>
+    </nav>
+    <div class="jumbotron text-center" style="margin-bottom:0;">
+      <img src="pics/favicon.png" width="30px" id = "footicon">
+      <p>el1te/web<br>2020</p>
+    </div>
+  </body>
+</html>
