@@ -1,3 +1,3 @@
 # web
 
-[elitelordy.github.io/web]
+[]: elitelordy.github.io/web
