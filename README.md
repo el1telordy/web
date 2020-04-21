@@ -1,3 +1,3 @@
 # web
 
-<elitelordy.github.io/web>
+<https://elitelordy.github.io/web>
