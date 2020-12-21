@@ -98,6 +98,14 @@ body {
     color: #bfbfbf !important;
 }
 
+body > .picture_comment {
+    background-color: #36383d;
+}
+
+body > .center, .gallery {
+    background-color: #36383d;
+}
+
 .input_select_cat,
 #input_tcapt {
     background: #111;
@@ -175,14 +183,20 @@ input[type="button" i]:hover {
     color: #202124;
 }
 
-/*send button bg*/
+/*fix useless borders in img upload block*/
+    
+.div_editor_menu_additional.active:before,
+.div_editor_menu_additional.active {
+    border: none;
+}
 
+/*send button bg*/
 #frm_topic > div.div_form_block > table > tbody > tr:nth-child(2) > td:nth-child(2) > div {
     background: #202124 !important;
 }
 
 /*profile arrow*/
-
+    
 .carret {
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
@@ -256,6 +270,23 @@ a:hover{
     background: #bfbfbf !important;
 }
 
+/*separators*/
+/*middle separator above second news block*/
+    
+.page_index .div_timeline_topics:before {
+/*     width: 80%;
+    left: 0px;
+    background: #777; */
+    border-top: 1px solid #313235;
+}
+
+/*recommend popular bottom separator*/
+    
+.div_topic_rec_text {
+    border-bottom: 1px solid #313235;
+}
+/*separators end*/
+
 .a_topic_cover {
     color: #bfbfbf !important;
 }
@@ -266,13 +297,17 @@ a:hover{
     color: #bfbfbf !important;
 }*/
 
-#div_index_topics_next_news_0_button {
-    background: #3e3e3e !important;
+/*load more button*/
+    
+.div_index_topics_more {
+    background: #313235;
+    border-color: #3e3e3e !important;
 }
 
-.div_index_topics_more {
-    border-color: #313235 !important;
+#div_index_topics_next_news_0_button {
+    background: #313235 !important;
 }
+/*load buttons end*/
 
 #div_page_left {
     background: #202124;
@@ -281,6 +316,12 @@ a:hover{
 
 blockquote{
     background: #202124;
+}
+
+/*edit topic button*/
+.div_moderate_edit_button {
+    background: #3e3e3e !important;
+    color: white !important;
 }
 
 /*most_commented*/
@@ -349,7 +390,7 @@ blockquote{
 #div_add_push_notify,
 #div_user_menu a:hover,
 .black a:hover, a.black:hover,
-.div_index_topics_more,
+/*.div_index_topics_more,*/
 .div_panel_digest_top,
 #div_menu_page:after,
 .div_panel_bordered_50,
@@ -460,6 +501,19 @@ blockquote{
     color: white;
 }
 
+/*apps*/
+
+    /*apps needs update block*/
+    .div_user_files_need_update,
+    .div_add_user_files_button  {
+        background: #313235;
+    }
+    /*add update*/
+    .div_add_user_files {
+        background: #202124;
+    }
+/*apps end*/
+
 /* forum */
 
 .div_forum_caption {
@@ -522,12 +576,6 @@ blockquote{
     background: #313235;
 }
 
-.page_index .div_timeline_topics:before {
-    width: 80%;
-    left: 0px;
-    background: #777;
-}
-
 .td_rank_pos > div{
     color: #fff !important;
     background-color: #202124 !important;
@@ -581,9 +629,10 @@ blockquote{
 
 /* no-primary */
 
-.div_index_topics_more {
+/*uncomment tot make load buttons one-colored*/
+/* .div_index_topics_more {
     border-color: #ffffff00 !important;
-}
+} */
 
 .div_comment.highlighted_comment{
     border-color: #fff !important;
@@ -712,6 +761,6 @@ h2 {
 
 /*
 Thanks @taranovegor for logo replacement code and piece of forum code
-Thank @artanzo for vectorized logo and main color idea
+Thanks @artanzo for vectorized logo and main color idea
 */
 }
