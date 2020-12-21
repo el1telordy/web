@@ -304,9 +304,18 @@ a:hover{
     border-color: #3e3e3e !important;
 }
 
+.div_index_topics_more:hover {
+    background: #3e3e3e;
+}
+
 #div_index_topics_next_news_0_button {
     background: #313235 !important;
 }
+
+#div_index_topics_next_news_0_button:hover {
+    background: #3e3e3e !important;
+}
+
 /*load buttons end*/
 
 #div_page_left {
