@@ -341,7 +341,8 @@ blockquote{
 
 .div_panel_bordered_caption {
     background: #202124;
-    color: #fef7cf !important;
+    /*color: #fef7cf !important;*/
+    color: #fff !important;
     border-left: 5px solid #202124;
     border-right: 5px solid #202124;
 }
@@ -384,7 +385,8 @@ blockquote{
 
 .div_panel_gray_caption {
     background: #313235;
-    color: #fef7cf;
+    /*color: #fef7cf;*/
+    color: #fff;
 }
 
 /*accent colors (header, highlights)*/
@@ -412,10 +414,14 @@ blockquote{
     background: #202124 !important;
 }
 
+
+/*down 3 blocks*/
+
 .div_panel_caption {
-    color: #fef7cf;
-    border-color: #202124 !important;
-    background: #202124 !important;
+    /*color: #fef7cf;*/
+    color: #fff !important;
+    border-color: #3e3e3e !important;
+    background: #3e3e3e !important;
 }
 
 .div_topic_votes_bar tbody tr td {
@@ -628,7 +634,8 @@ blockquote{
 }
 
 .div_line_header_text {
-    color: #fef7cf;
+    /*color: #fef7cf;*/
+    color: #fff;
     background: #202124;
 }
 
@@ -638,7 +645,7 @@ blockquote{
 
 /* no-primary */
 
-/*uncomment tot make load buttons one-colored*/
+/*uncomment to make load buttons one-colored*/
 /* .div_index_topics_more {
     border-color: #ffffff00 !important;
 } */
