@@ -509,9 +509,9 @@ blockquote{
 }
 
 .div_topic_cover.reviews .div_topic_cover_caption {
-    border-left: 10px solid rgb(0,0,0,0);
+    border-left: 10px solid #82b6f6;
 }
-
+    
 .div_topic_tcapt_content {
     color: white;
 }
